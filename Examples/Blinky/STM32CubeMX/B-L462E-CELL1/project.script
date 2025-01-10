@@ -1,0 +1,4 @@
+loadboard B-L462E-CELL1 allmodes
+project name STM32CubeMX
+project toolchain "MDK-ARM V5"
+SetCopyLibrary "copy only"
