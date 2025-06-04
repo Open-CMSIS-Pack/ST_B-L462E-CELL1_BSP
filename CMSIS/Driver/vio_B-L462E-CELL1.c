@@ -1,8 +1,8 @@
 /******************************************************************************
  * @file     vio_B-L462E-CELL1.c
  * @brief    Virtual I/O implementation for board B-L462E-CELL1
- * @version  V1.0.0
- * @date     10. January 2025
+ * @version  V1.0.1
+ * @date     30. May 2025
  ******************************************************************************/
 /*
  * Copyright (c) 2025 Arm Limited (or its affiliates).
@@ -73,7 +73,7 @@ static const pinCfg_t outputCfg[] = {
 //  signal,     pin,                   pull resistor,      active state
   { vioLED0,    GPIO_PIN_ID_PORTC(6),  ARM_GPIO_PULL_NONE, VIO_ACTIVE_HIGH },
   { vioLED1,    GPIO_PIN_ID_PORTB(15), ARM_GPIO_PULL_NONE, VIO_ACTIVE_HIGH },
-  { vioLED2,    GPIO_PIN_ID_PORTB(13), ARM_GPIO_PULL_NONE, VIO_ACTIVE_HIGH }
+  { vioLED2,    GPIO_PIN_ID_PORTB(14), ARM_GPIO_PULL_NONE, VIO_ACTIVE_HIGH }
 };
 #endif
 

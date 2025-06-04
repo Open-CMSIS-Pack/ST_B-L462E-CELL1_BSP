@@ -16,6 +16,9 @@
   <releases>
     <release version="1.0.1-dev">
       Active development ...
+      Drivers:
+      - CMSIS-Driver VIO:
+      -- correct pin for LED2
     </release>
   </releases>
 
@@ -52,7 +55,7 @@
 
   <components>
     <!-- CMSIS VIO Driver component for B-L462E-CELL1 -->
-    <component Cclass="CMSIS Driver" Cgroup="VIO" Csub="Board" Cversion="1.0.0" Capiversion="1.0.0" condition="B-L462E-CELL1 GPIO">
+    <component Cclass="CMSIS Driver" Cgroup="VIO" Csub="Board" Cversion="1.0.1" Capiversion="1.0.0" condition="B-L462E-CELL1 GPIO">
       <description>I/O implementation for B-L462E-CELL1</description>
       <RTE_Components_h>
         #define RTE_VIO_BOARD
