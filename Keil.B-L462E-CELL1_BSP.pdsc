@@ -19,6 +19,12 @@
       Drivers:
       - CMSIS-Driver VIO:
       -- correct pin for LED2
+      Blinky project:
+      - specify thread names using thread attributes
+      - rename thread IDs
+      - modify app_main_thread (replace loop forever)
+      - add DWARF-5 debug information
+      - add RTE_Components.h files
     </release>
   </releases>
 
